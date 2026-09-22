@@ -1,0 +1,102 @@
+
+
+/*Ändrar bakgrundsfärg på hela sidan*/
+body
+{
+margin:0;
+background-color: gainsboro;
+/*sakapar en ram runt hela sidan*/
+}
+#wrapper
+{
+    width:1400px;
+    margin:auto;
+}
+
+#top
+/*Ändrar bakgrundsfärg på toppmenyn och textfärg*/
+{
+    background-color: #151515;
+    height: 24px;
+    width:100%;
+    padding-top: 10px;
+    color: #fff; 
+    font-family: verdana, geneva, sans-serif;
+}
+
+#toplinks
+/*Ändrar platsen på toppmenyn*/
+{
+    margin-left: 115px;
+    float:left;
+}
+
+#top a 
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+#top a:hover
+{
+    color: #f7641d;
+}
+
+.divider
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#rightinfo
+{
+    float:right;
+    margin-right: 220px;
+}
+
+#header a 
+{
+    color:#000;
+    text-decoration: none;
+}
+
+#header
+{
+    height:81px;
+    background-color: #ffffff;
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#header a:hover
+{
+    color: #f7641d;
+}
+
+#headerleft
+{
+    float:left;
+    margin-left: 144px;
+    padding-top: 34px;
+}
+
+#headermid
+{
+    float:left;
+    margin-left: 120px;
+}
+
+#headerright 
+{
+    float:right;
+    margin-right: 120px;
+    padding-top: 34px;
+}
+
+#frontImage
+{
+    background-image: url("C:/Users/august.brink/Desktop/webbshop/images/front.jpg");
+    height: 582px;
+}
